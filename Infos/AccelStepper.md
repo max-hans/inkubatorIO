@@ -3,7 +3,6 @@
 ### Parameter setzen
 
 `stepper.setSpeed(100);`
-
 Konstante Geschwindigkeit
 
 
