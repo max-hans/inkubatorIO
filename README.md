@@ -2,6 +2,8 @@
 
 __Sommersemester 18 | ABK Stuttgart | Klasse Grundlagen der Gestaltung Arch/ID__
 
+![io banner](https://raw.githubusercontent.com/max-hans/inkubatorIO/master/Infos/_res/inkubatorIO_title.jpg "IO Banner")
+
 
 _LB Dipl. Des. Maximilian Hans , SH Sebastian Viering , SH Johanna Schneider_
 
