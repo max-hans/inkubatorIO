@@ -2,11 +2,13 @@
 
 ### Parameter setzen
 
-`stepper.setSpeed(100)`
+`stepper.setSpeed(100);`
+
 Konstante Geschwindigkeit
 
 
 `stepper.setMaxSpeed(100);`
+
 Maximalgeschwindigkeit wenn der Stepper mit Beschleunigung genutzt wird
 
 
