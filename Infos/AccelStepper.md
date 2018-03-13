@@ -16,8 +16,9 @@ Bei Geschwindigkeiten sind Werte von 0 - 800 ganz gut, bei Positionswerten sollt
 
 ### Parameter setzen
 
-`stepper.setSpeed(100);`
-
+```C++
+stepper.setSpeed(100);`
+```
 Konstante Geschwindigkeit
 
 
