@@ -19,7 +19,7 @@ void loop() {
   newVal = analogRead(A4);
   // wir lesen einen neuen wert vom sensor ein
   
-  if(oldVal - newVal) > threshold){
+  if((oldVal - newVal) > threshold){
     // wenn der unterschied der beiden werte über unserem threshold ist
     
     Serial.println("hello");
