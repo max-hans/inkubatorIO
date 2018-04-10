@@ -12,15 +12,20 @@ void setup() {
 }
 
 void loop()
+
 { if (stepper1.distanceToGo() == 0) {
+
     int target = map(analogRead(A2), 450, 900, 100, 1000);
-    if(dir){
+    stepper1.setMaxSpeed(800);
+    stepper1.setAcceleration(1000);
+    if (dir) {
       target *= -1;
       dir = false;
     }
-    else{
+    else {
       dir = true;
     }
+
     stepper1.moveTo(target);
     Serial.println(target);
   }
