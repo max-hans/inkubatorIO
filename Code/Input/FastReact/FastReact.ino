@@ -1,7 +1,7 @@
-int oldVal = 0;
+int oldValue = 0;
 // variable für den alten wert
 
-int newVal = 0;
+int newValue = 0;
 // variable für den neuen wert
 
 int threshold = 100;
@@ -13,13 +13,13 @@ void setup() {
 }
 
 void loop() {
-  oldVal = newVal;
+  oldValue = newValue;
   // wir speichern den aktuellen wert aus dem letzten durchgang als alten wert ab
   
-  newVal = analogRead(A4);
+  newValue = analogRead(A4);
   // wir lesen einen neuen wert vom sensor ein
   
-  if((oldVal - newVal) > threshold){
+  if((oldValue - newValue) > threshold){
     // wenn der unterschied der beiden werte über unserem threshold ist
     
     Serial.println("hello");

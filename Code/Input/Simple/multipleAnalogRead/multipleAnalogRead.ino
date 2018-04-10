@@ -1,7 +1,4 @@
-#define INPUTPIN0 A4
-#define INPUTPIN1 A5
-
-void setup() {
+ void setup() {
 
   Serial.begin(9600);
   // kommunikation mit dem computer starten
@@ -10,8 +7,8 @@ void setup() {
 
 void loop() {
 
-  int value0 = analogRead(INPUTPIN0);
-  int value1 = analogRead(INPUTPIN1);
+  int value0 = analogRead(A4);
+  int value1 = analogRead(A5);
   // einlesen der werte an den pins in einzelne variablen
   
   Serial.print("0: ");

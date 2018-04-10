@@ -3,6 +3,9 @@
 #define SENSOR2 A6
 #define SENSOR3 A7
 
+// statt immer den speziellen pin-namen zu schreiben, können wir ihnen auch
+// universellere bezeichnungen geben
+
 const int sensorCount = 4;
 // hier legen wir fest, wieviele sensoren wir benutzen
 
