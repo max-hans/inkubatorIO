@@ -12,7 +12,7 @@ AccelStepper stepper3(8, 9, 11, 10, 12);
 // Variablen
 
 int stepperSpeed = 100;
-int printInverval = 500;
+int printInterval = 500;
 
 unsigned long target;
 
